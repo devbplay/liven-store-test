@@ -1,0 +1,10 @@
+.no_results_container {
+	--wrap-display: flex;
+	--wrap-flex-direction: column;
+	--wrap-justify-content: center;
+	--wrap-align-items: center;
+
+	h2 {
+		text-align: center;
+	}
+}
