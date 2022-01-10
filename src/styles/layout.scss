@@ -1,0 +1,17 @@
+.btn {
+	border: none;
+	outline: none;
+	background: #21d366;
+
+	width: 100%;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+
+	color: var(--white);
+
+	transition: all 0.3s;
+
+	&:hover {
+		filter: brightness(0.9);
+	}
+}

@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* default font-size: 16px */
+html {
+	@media (max-width: 1080px) {
+		font-size: 93.75%; // 15px
+	}
+
+	@media (max-width: 720px) {
+		font-size: 87.5%; // 14px
+	}
+}
+
+body {
+	min-height: 100vh;
+	background: var(--white);
+	color: var(--black);
+	-webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, a, button {
+	font: 400 1rem 'JetBrains Mono', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: var(--black);
+	transition: all 0.2s;
+
+	&:hover {
+		filter: brightness(0.8);
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+.wrap {
+	width: 100%;
+	max-width: var(--wrap-base);
+	margin: 0 auto;
+
+	padding: var(--wrap-padding, 0);
+
+	display: var(--wrap-display, flex);
+	flex-direction: var(--wrap-flex-direction);
+	align-items: var(--wrap-align-items, initial);
+	justify-content: var(--wrap-justify-content, initial);
+	gap: var(--wrap-gap, 0);
+	grid-template-columns: var(--wrap-grid-template-columns, auto);
+}
+
+.hide_desk {
+	@media only screen and (min-width: 992px) {
+		display: none;
+	}
+}

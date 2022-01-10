@@ -1,0 +1,55 @@
+:root {
+	--wrap-base: 1440px;
+
+	@media (max-width: 1440px) {
+		--wrap-base: 1140px;
+	}
+	@media (max-width: 1120px) {
+		--wrap-base: 992px;
+	}
+	@media (max-width: 992px) {
+		--wrap-base: 720px;
+	}
+	@media (max-width: 720px) {
+		--wrap-base: 100%;
+	}
+
+	// Color's
+	--white: #f9f9f9f9;
+	--black: #212122;
+
+	--gray-100: #e1e1e6;
+	--gray-300: #a8a8b3;
+	--gray-500: #7f7f86;
+	--gray-700: #37373a;
+	--gray-900: #292929;
+
+	--purple-100: #4DB6F9;
+	--purple-300: #4478DB;
+	--purple-500: #5865F2;
+	--purple-700: #6044DB;
+	--purple-900: #9C4DF9;
+
+	--green-100: #4DF9E5;
+	--green-300: #44DB9F;
+	--green-500: #57F287;
+	--green-700: #44DB49;
+	--green-900: #82F94D;
+
+	// spacing
+	--spacing-xxxs: 0.25rem;
+	--spacing-xxs: 0.75rem;
+	--spacing-xs: 1.25rem;
+	--spacing-sm: 1.75rem;
+	--spacing-md: 2.5rem;
+	--spacing-lg: 3rem;
+	--spacing-xl: 3.75rem;
+	--spacing-xxl: 4.25rem;
+	--spacing-xxxl: 5rem;
+
+	// radiu's
+	--radius-sm: 0.25rem;
+	--radius-md: 0.75rem;
+	--radius-lg: 1.25rem;
+	--radius-pill: 50%;
+}
