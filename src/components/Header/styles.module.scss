@@ -1,0 +1,28 @@
+.header_container {
+	--wrap-justify-content: space-between;
+	--wrap-align-items: center;
+
+	--wrap-padding: 2rem 0;
+
+	border-bottom: 1px solid var(--gray-900);
+
+	img {
+		width: 15rem;
+	}
+
+	.container_bag {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+	}
+
+	.icon_bag {
+		cursor: pointer;
+		transition: all 0.3s;
+		color: var(--gray-900);
+
+		&:hover {
+			filter: brightness(.25);
+		}
+	}
+}
